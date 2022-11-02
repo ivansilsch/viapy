@@ -1,0 +1,6 @@
+{
+    "GET /": "root",
+    "GET /apis": "apis.all",
+    "POST /apis": "apis.create",
+    "GET /apis/:id": "apis.one(id)"
+}
